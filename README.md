@@ -1,5 +1,6 @@
 # Project Description 
 <hr/>
+
 ### 1. Project Name
     - 
 <br>
@@ -59,9 +60,6 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 
 * Sqlite3
     * //설명
-'''python
-pip install Sqlite3
-'''
 <pre><code>pip install Sqlite3</code></pre>
 
 
