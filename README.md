@@ -10,7 +10,13 @@
 <br>
 
 ### 3. Problem Statement
-* Forwarding refers to the business of arranging the logistics of import/export cargo by using the logistics facilities and equipment of the supplier in the name of the forwarding company at the request of the consumer. The consumer will want to charge the forwarding company for logistics costs at the lowest possible price, and the supplier will want to collect the logistics and transportation costs at the highest possible price. At this point, the need for the forwarding company's pricing task arises. That is, the person in charge of pricing is responsible for establishing and implementing strategies for air and sea international freight rates, contacting airlines and shipping companies to identify trends, and securing supply space through seasonal cargo capacity management. However, in the case of 'Freight indexes', one of the main information needed for Pricing work, there is an inconvenience of accessing and checking each subject's site to check index information because there is more than one index designated as an international standard.
+* Forwarding refers to the business of arranging the logistics of import/export cargo by using the logistics facilities and equipment of the supplier in the name of the forwarding company at the request of the consumer. The consumer will want to charge the forwarding company for logistics costs at the lowest possible price, and the supplier will want to collect the logistics and transportation costs at the highest possible price. At this point, the need for the forwarding company's pricing task arises. That is, the person in charge of pricing is responsible for establishing and implementing strategies for air and ocean international freight rates, contacting airlines and shipping companies to identify trends, and securing supply space through seasonal cargo capacity management. However, in the case of 'Freight indexes', one of the main information needed for Pricing tasks, there is an inconvenience of accessing and checking each subject's site to check indexes information because there is more than one index designated as an international standard. 
+* Freight indexes
+   * Ocean indexes
+      * BDI ; Baltic Dry Index
+   *
+   *
+   *
 <br>
 
 ### 4. Project Scope
@@ -18,7 +24,7 @@
 <br>
 
 ### 5. Deliverables and Benefits
-*
+* Efficiency of pricing tasks is expected to improve when an integrated channel that can be inquired about the entire freight index is created
 <br>
 
 ### 6. Project Team : Hyuncheol Ryu(PM)
