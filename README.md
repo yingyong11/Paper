@@ -22,7 +22,7 @@
 <br>
 
 ### 6. Schedule 
-![Schedule](Paper/img/Schedule.png)
+![Schedule](Paper/img/Schedule.PNG)
 <br><br>
 
 # Getting Started
