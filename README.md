@@ -1,5 +1,5 @@
 # Project Description
-***
+---
 
 ### 1. Project Name
     - 
@@ -22,7 +22,7 @@
 <br>
 
 ### 6. Schedule 
-![Schedule](Paper/img/Schedule.PNG)
+![Schedule](./img/Schedule.PNG)
 <br><br>
 
 # Getting Started
