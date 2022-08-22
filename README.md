@@ -2,23 +2,23 @@
 <hr/>
 
 ### 1. Project Name
-    - ㅣㅓㅏㅣㅓㅣㅏ
+* ㅣㅓㅏㅣㅓㅣㅏ
 <br>
 
 ### 2. Problem Statement
-    -
+*
 <br>
 
 ### 3. Project Scope
-    -
+*
 <br>
 
 ### 4. Deliverables and Benefits
-    -
+*
 <br>
 
 ### 5. Project Team : Hyuncheol Ryu(PM)
-    -
+*
 <br>
 
 ### 6. Schedule 
