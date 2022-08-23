@@ -68,7 +68,7 @@ To install package, you need to run the command below in the command line.
 * Html_table_parser * It is a module that parses <table> in html.
 <pre><code>pip install Html_table_parser</code></pre>
 <br>
-  
+
 * Pandas
   * It is used to convert indexes data scraped by websites into a dataframe.
 <pre><code>pip install pandas</code></pre>
