@@ -46,43 +46,45 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 
 
 ### Prerequisites
-* //[PlantUML](https://se-education.org/addressbook-level4/UsingPlantUml.html) is an open-source project to quickly write diagrams and is a necessary SW for ERD design.
-* //[Visual Studio](https://www.guru99.com/download-install-visual-studio.html) provides an environment where you can check UML by writing the code.
-* //[Jupyter](https://jupyter.readthedocs.io/en/latest/install.html) is a a web-based interactive computing platform that allows you to write and execute python code in a web browser. Besides Jupyter, it doesn't matter if it's a program that can execute python code.
-* //[SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) is a database management system such as MySQL or PostgreSQL, but it is a relatively light database that is used in applications rather than servers.
-* //[Chrome Driver](https://chromedriver.chromium.org/downloads) is a file that allows you to control the chrome browser, and is a necessary file when using the Selenium package. You need to download the same version of the chrome driver as your chrome, and put it where the Python file is after downloading.
+* [PlantUML](https://se-education.org/addressbook-level4/UsingPlantUml.html) is an open-source project to quickly write diagrams and is a necessary SW for ERD design.
+* [Visual Studio](https://www.guru99.com/download-install-visual-studio.html) provides an environment where you can check UML by writing the code.
+* [Jupyter](https://jupyter.readthedocs.io/en/latest/install.html) is a a web-based interactive computing platform that allows you to write and execute python code in a web browser. Besides Jupyter, it doesn't matter if it's a program that can execute python code.
+* [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) is a database management system such as MySQL or PostgreSQL, but it is a relatively light database that is used in applications rather than servers.
+* [Chrome Driver](https://chromedriver.chromium.org/downloads) is a file that allows you to control the chrome browser, and is a necessary file when using the Selenium package. You need to download the same version of the chrome driver as your chrome, and put it where the Python file is after downloading.
 
 ### Installing the python package
+To install package, you need to run the command below in the command line.
+
 * Pandas
-    * // 웹사이트에서 스크래핑한 데이터를 데이터프레임으로 저장하기 위해 필요한 패키지
+    * It is used to convert indexes data scraped by websites into a dataframe.
 <pre><code>pip install pandas</code></pre>
 <br>
 
 * BeautifulSoup
-    * //홈페이지 스크래핑 
+    * It is a python package for parsing html and xml documents 
 <pre><code>pip install BeautifulSoup4</code></pre>
 <br>
 
 * Html_table_parser
-    * //References 참고
+    * It is a module that parses <table> in html.
 <pre><code>pip install Html_table_parser</code></pre>
 <br>
 
 * Selenium
-    * //동적 홈페이지 스크래핑하기 위해 필요한 패키지
+    * It is a package needed to scrape data created dynamically by javascript. This is a necessary package because this is the case for web pages with BDI, SCFI, and BAI index information.
 <pre><code>pip install Selenium</code></pre>
 <br>
 
 * Sqlite3
-    * //sqlite for browser 에서 직접 csv 파일을 임포트 해도 되지만, 파이썬에서 sqlite3 패키지를 활용할 경우 sqlite의 db file에서 csv 파일을 임포트하고, 쿼리를 날릴 수도 있다. 
+    * You can import the csv file directly from 'DB Browser for SQLite', but if you use the sqlite3 package in python, you can import the csv file into the db file of sqlite and run a query.
 <pre><code>pip install Sqlite3</code></pre>
 
 * Datetime
-    * 웹사이트에서 스크래핑한 일부 지표의 경우, 일자 입력이 되어있지 않은 테이블이 있기 때문에 time 패키지를 활용하여 일자 입력이 필요하다. 
+    * In the case of the BAI index, since there is raw data with no date input, it is necessary to input the date using the datetime package in the process of converting the scraped raw data into a standardized form.
 <pre><code>pip install Datetime</code></pre>
 
 * Time
-    * 일부 홈페이지의 경우, 동적 홈페이지 스크래핑 과정에서 time wait를 위해 필요.
+    * We manipulate selenium package through commands. For example, if you search for 'driver.get('https://pythondocs.net')', Python signals selenium, and selenium signals the browser to move the url . The browser sends a signal to show the webpage to the pythondocs server, and pythondocs.net receives the signal and sends the webpage information in the language of html, css, and JavaScript to my browser. My browser converts the received language into a screen that people can see and displays it on the browser screen. This is where the time difference comes into play. If the driver.get(‘https://pythondocs.net’) command is executed and the next command is executed before data is received from the server, the code will not work properly. Therefore, waiting time is required to receive data, and there are three methods in Selenium for this. It is to use one of the commands 'time.sleep', implicitly wait, or explicitly wait. The time package is a package required to use the 'time.sleep' command.
 <pre><code>pip install Time</code></pre>
 
 ### Files
