@@ -25,7 +25,7 @@
 * 
 <br>
 
-### 5. Deliverables and Benefits
+### 5. Benefits
 * A deliberable of project is expected to be a database file for a total of 5 freight indexes data.
 * The efficiency of pricing tasks will be increased as indexes data can be viewed and managed in one integrated channel.
 <br>
