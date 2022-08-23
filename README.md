@@ -60,11 +60,6 @@ To install package, you need to run the command below in the command line.
 <pre><code>pip install BeautifulSoup4</code></pre>
 <br>
 
-* Html_table_parser
-   * It is a module that parses <table> in html.
-<pre><code>pip install Html_table_parser</code></pre>
-<br>
-
 * Selenium
     * It is a package needed to scrape data created dynamically by javascript. This is a necessary package because this is the case for web pages with BDI, SCFI, and BAI index information.
 <pre><code>pip install Selenium</code></pre>
