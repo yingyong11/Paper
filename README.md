@@ -77,11 +77,11 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 
 * Datetime
     * 웹사이트에서 스크래핑한 일부 지표의 경우, 일자 입력이 되어있지 않은 테이블이 있기 때문에 time 패키지를 활용하여 일자 입력이 필요하다. 
-<pre><code>pip install Sqlite3</code></pre>
+<pre><code>pip install Datetime</code></pre>
 
 * Time
     * 일부 홈페이지의 경우, 동적 홈페이지 스크래핑 과정에서 time wait를 위해 필요.
-<pre><code>pip install Sqlite3</code></pre>
+<pre><code>pip install Time</code></pre>
 
 ### Files
 1. src/ 
