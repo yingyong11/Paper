@@ -23,7 +23,7 @@
 
 ### 4. Project Scope
 
-![ProjectScope](./img/project scope.png)
+![ProjectScope](./img/project scope.PNG)
 <br>
 
 ### 5. Benefits
@@ -36,7 +36,7 @@
 <br>
 
 ### 7. Schedule
-![Schedule](./img/project scope.png)
+![Schedule](./img/Schedule.PNG)
 
 <br><br>
 
