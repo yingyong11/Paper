@@ -51,6 +51,7 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 * [Jupyter](https://jupyter.readthedocs.io/en/latest/install.html) is a a web-based interactive computing platform that allows you to write and execute python code in a web browser. Besides Jupyter, it doesn't matter if it's a program that can execute python code.
 * [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) is a database management system such as MySQL or PostgreSQL, but it is a relatively light database that is used in applications rather than servers.
 * [Chrome Driver](https://chromedriver.chromium.org/downloads) is a file that allows you to control the chrome browser, and is a necessary file when using the Selenium package. You need to download the same version of the chrome driver as your chrome, and put it where the Python file is after downloading.
+<br>
 
 ### Installing the python package
 To install package, you need to run the command below in the command line.
