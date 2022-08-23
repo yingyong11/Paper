@@ -22,7 +22,7 @@
 <br>
 
 ### 4. Project Scope
-* 
+![Project SCope](./img/project scope.png)
 <br>
 
 ### 5. Benefits
