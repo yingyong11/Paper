@@ -46,11 +46,11 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 
 
 ### Prerequisites
-* //ERD 설계를 위해 필요한 SW [Visual Studio](https://www.guru99.com/download-install-visual-studio.html)
-* //ERD 설계를 위해 필요한 SW [PlantUML](https://se-education.org/addressbook-level4/UsingPlantUml.html)
-* //파이썬 코드 구현을 위해 필요한 소프트웨어 [Jupyter](https://jupyter.readthedocs.io/en/latest/install.html)
-* //데이터베이스파일을 저장하고, 00하기 위해 필요 [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
-* //동적 홈페이지를 스크래핑하는 과정에서 ~하기 위해 필요. References 참고  [Chrome Driver](https://chromedriver.chromium.org/downloads) Download the same version of Google Chrome you are using
+* //[PlantUML](https://se-education.org/addressbook-level4/UsingPlantUml.html) is an open-source project to quickly write diagrams and is a necessary SW for ERD design.
+* //[Visual Studio](https://www.guru99.com/download-install-visual-studio.html) provides an environment where you can check UML by writing the code.
+* //[Jupyter](https://jupyter.readthedocs.io/en/latest/install.html) is a a web-based interactive computing platform that allows you to write and execute python code in a web browser. Besides Jupyter, it doesn't matter if it's a program that can execute python code.
+* //[SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) is a database management system such as MySQL or PostgreSQL, but it is a relatively light database that is used in applications rather than servers.
+* //[Chrome Driver](https://chromedriver.chromium.org/downloads) is a file that allows you to control the chrome browser, and is a necessary file when using the Selenium package. You need to download the same version of the chrome driver as your chrome, and put it where the Python file is after downloading.
 
 ### Installing the python package
 * Pandas
