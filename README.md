@@ -22,7 +22,7 @@
 <br>
 
 ### 4. Project Scope
-![Project Scope](./img/project scope.png)
+![ProjectScope](./img/project scope.png)
 <br>
 
 ### 5. Benefits
@@ -34,7 +34,7 @@
 ### 6. Project Team : Hyuncheol Ryu(PM)
 <br>
 
-### 7. Schedule 
+### 7. Schedule
 ![Schedule](./img/project scope.png)
 <br><br>
 
