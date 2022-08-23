@@ -36,7 +36,6 @@
 
 ### 7. Schedule 
 ![Schedule](./img/project scope.png)
-
 <br><br>
 
 # Getting Started
