@@ -44,37 +44,44 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 
 
 ### Prerequisites
-* //설명 [Visual Studio](https://www.guru99.com/download-install-visual-studio.html)
-* //설명 [PlantUML](https://se-education.org/addressbook-level4/UsingPlantUml.html)
-* //설명 [Jupyter](https://jupyter.readthedocs.io/en/latest/install.html)
-* //설명 [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
-* //설명 [Chrome Driver](https://chromedriver.chromium.org/downloads) Download the same version of Google Chrome you are using
+* //ERD 설계를 위해 필요한 SW [Visual Studio](https://www.guru99.com/download-install-visual-studio.html)
+* //ERD 설계를 위해 필요한 SW [PlantUML](https://se-education.org/addressbook-level4/UsingPlantUml.html)
+* //파이썬 코드 구현을 위해 필요한 소프트웨어 [Jupyter](https://jupyter.readthedocs.io/en/latest/install.html)
+* //데이터베이스파일을 저장하고, 00하기 위해 필요 [SQLite](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
+* //동적 홈페이지를 스크래핑하는 과정에서 ~하기 위해 필요. References 참고  [Chrome Driver](https://chromedriver.chromium.org/downloads) Download the same version of Google Chrome you are using
 
 ### Installing the python package
 * Pandas
-    * //설명
+    * // 웹사이트에서 스크래핑한 데이터를 데이터프레임으로 저장하기 위해 필요한 패키지
 <pre><code>pip install pandas</code></pre>
 <br>
 
 * BeautifulSoup
-    * //설명
+    * //홈페이지 스크래핑 
 <pre><code>pip install BeautifulSoup4</code></pre>
 <br>
 
 * Html_table_parser
-    * //설명
+    * //References 참고
 <pre><code>pip install Html_table_parser</code></pre>
 <br>
 
 * Selenium
-    * //설명
+    * //동적 홈페이지 스크래핑하기 위해 필요한 패키지
 <pre><code>pip install Selenium</code></pre>
 <br>
 
 * Sqlite3
-    * //설명
+    * //sqlite for browser 에서 직접 csv 파일을 임포트 해도 되지만, 파이썬에서 sqlite3 패키지를 활용할 경우 sqlite의 db file에서 csv 파일을 임포트하고, 쿼리를 날릴 수도 있다. 
 <pre><code>pip install Sqlite3</code></pre>
 
+* Datetime
+    * 웹사이트에서 스크래핑한 일부 지표의 경우, 일자 입력이 되어있지 않은 테이블이 있기 때문에 time 패키지를 활용하여 일자 입력이 필요하다. 
+<pre><code>pip install Sqlite3</code></pre>
+
+* Time
+    * 일부 홈페이지의 경우, 동적 홈페이지 스크래핑 과정에서 time wait를 위해 필요.
+<pre><code>pip install Sqlite3</code></pre>
 
 ### Files
 1. src/ 
