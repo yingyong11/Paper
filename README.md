@@ -78,14 +78,17 @@ To install package, you need to run the command below in the command line.
 * Sqlite3
   * You can import the csv file directly from 'DB Browser for SQLite', but if you use the sqlite3 package in python, you can import the csv file into the db file of sqlite and run a query.
 <pre><code>pip install Sqlite3</code></pre>
+<br>
 
 * Datetime
   * In the case of the BAI index, since there is raw data with no date input, it is necessary to input the date using the datetime package in the process of converting the scraped raw data into a standardized form.
 <pre><code>pip install Datetime</code></pre>
+<br>
 
 * Time
   * We manipulate selenium package through commands. For example, if you search for 'driver.get('https://pythondocs.net')', Python signals selenium, and selenium signals the browser to move the url . The browser sends a signal to show the webpage to the pythondocs server, and pythondocs.net receives the signal and sends the webpage information in the language of html, css, and JavaScript to my browser. My browser converts the received language into a screen that people can see and displays it on the browser screen. This is where the time difference comes into play. If the driver.get(‘https://pythondocs.net’) command is executed and the next command is executed before data is received from the server, the code will not work properly. Therefore, waiting time is required to receive data, and there are three methods in Selenium for this. It is to use one of the commands 'time.sleep', implicitly wait, or explicitly wait. The time package is a package required to use the 'time.sleep' command.
 <pre><code>pip install Time</code></pre>
+<br>
 
 ### Files
 1. src/ 
