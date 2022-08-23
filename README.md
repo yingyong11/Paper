@@ -22,6 +22,7 @@
 <br>
 
 ### 4. Project Scope
+
 ![ProjectScope](./img/project scope.png)
 <br>
 
@@ -36,6 +37,7 @@
 
 ### 7. Schedule
 ![Schedule](./img/project scope.png)
+
 <br><br>
 
 # Getting Started
