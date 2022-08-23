@@ -56,27 +56,27 @@ In order to run the code in [src](link) and [DB](link), you'll need the followin
 To install package, you need to run the command below in the command line.
 
 * Pandas
-    * It is used to convert indexes data scraped by websites into a dataframe.
+  * It is used to convert indexes data scraped by websites into a dataframe.
 <pre><code>pip install pandas</code></pre>
 <br>
 
 * BeautifulSoup
-    * It is a python package for parsing html and xml documents 
+  * It is a python package for parsing html and xml documents 
 <pre><code>pip install BeautifulSoup4</code></pre>
 <br>
 
 * Html_table_parser
-    * It is a module that parses <table> in html.
+  * It is a module that parses <table> in html.
 <pre><code>pip install Html_table_parser</code></pre>
 <br>
 
 * Selenium
-    * It is a package needed to scrape data created dynamically by javascript. This is a necessary package because this is the case for web pages with BDI, SCFI, and BAI index information.
+  * It is a package needed to scrape data created dynamically by javascript. This is a necessary package because this is the case for web pages with BDI, SCFI, and BAI index information.
 <pre><code>pip install Selenium</code></pre>
 <br>
 
 * Sqlite3
-    * You can import the csv file directly from 'DB Browser for SQLite', but if you use the sqlite3 package in python, you can import the csv file into the db file of sqlite and run a query.
+  * You can import the csv file directly from 'DB Browser for SQLite', but if you use the sqlite3 package in python, you can import the csv file into the db file of sqlite and run a query.
 <pre><code>pip install Sqlite3</code></pre>
 
 * Datetime
