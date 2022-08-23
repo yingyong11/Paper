@@ -28,6 +28,7 @@
 ### 5. Benefits
 * A deliberable of project is expected to be a database file for a total of 5 freight indexes data.
 * The efficiency of pricing tasks will be increased as indexes data can be viewed and managed in one integrated channel.
+* By storing an index for each website in the database, it becomes possible to develop models and strategies using past data in the future.
 <br>
 
 ### 6. Project Team : Hyuncheol Ryu(PM)
