@@ -65,7 +65,8 @@ To install package, you need to run the command below in the command line.
 <pre><code>pip install Selenium</code></pre>
 <br>
 
-* Html_table_parser * It is a module that parses <table> in html.
+* Html_table_parser 
+  * It is a module that parses <table> in html.
 <pre><code>pip install Html_table_parser</code></pre>
 <br>
 
