@@ -23,7 +23,7 @@
 
 ### 4. Project Scope
 
-![ProjectScope](./img/project scope.PNG)
+![ProjectScope](./img/ProjectScope.png)
 <br>
 
 ### 5. Benefits
